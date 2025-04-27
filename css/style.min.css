@@ -212,6 +212,7 @@
 }
 
 .promo__interactive-item {
+    cursor: pointer;
     display: inline-block;
     position: relative;
     font-weight: 300;
@@ -354,3 +355,8 @@
 }
 
 /*# sourceMappingURL=style.min.css.map */
+
+.promo__bg {
+    transition: 0.3s;
+    background-position: center;
+}
